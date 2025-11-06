@@ -17,12 +17,15 @@ In development for my Data Science Capstone class!
 ##### SVM
 <b>Confusion Matrix: </b>
 <br>
+
 <img width="324.5" height="273.5" alt="Support Vector Machine Confusion Matrix" src="https://github.com/user-attachments/assets/e3e5be5c-4894-4f30-835d-9f9e036fc07b" />
 <br>
 * This confusion matrix further represents the high performance of the SVM individually
 * It shows a tendency for Type II errors
+<br>
 <b> Accuracy Metrics </b>
 <br>
+
 <table>
    <caption>Accuracy Metrics for SVM</caption>
    <tr>
