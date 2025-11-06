@@ -14,12 +14,15 @@ In development for my Data Science Capstone class!
 * DeBERTa initial fine-tuning
 
 ### Current Performance Metrics:
-#### SVM
+##### SVM
 <b>Confusion Matrix: </b>
 <br>
 <img width="324.5" height="273.5" alt="Support Vector Machine Confusion Matrix" src="https://github.com/user-attachments/assets/e3e5be5c-4894-4f30-835d-9f9e036fc07b" />
-This confusion matrix further represents the high performance of the SVM individually. It shows a tendency for Type II errors.
+<br>
+* This confusion matrix further represents the high performance of the SVM individually
+* It shows a tendency for Type II errors
 <b> Accuracy Metrics </b>
+<br>
 <table>
    <caption>Accuracy Metrics for SVM</caption>
    <tr>
@@ -39,11 +42,12 @@ This confusion matrix further represents the high performance of the SVM individ
       <td>0.99248</td>
    </tr>
 </table>
-
-#### DeBERTa V3 Small
+<br>
+##### DeBERTa V3 Small
 <b>F-Score: </b> 0.9962264150943396
-This value demonstrates high accuracy and recall. 
-
+* This value demonstrates high accuracy and recall
+* It indicates robust performance
+<br>
 
 #### Next Steps:
 * Chunk essay data to match token constraints
