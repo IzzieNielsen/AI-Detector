@@ -16,7 +16,33 @@ In development for my Data Science Capstone class!
 ### Current Performance Metrics:
 #### SVM
 <b>Confusion Matrix: </b>
-<img width="649" height="547" alt="svm_cm_1" src="https://github.com/user-attachments/assets/e3e5be5c-4894-4f30-835d-9f9e036fc07b" />
+<br>
+<img width="324.5" height="273.5" alt="Support Vector Machine Confusion Matrix" src="https://github.com/user-attachments/assets/e3e5be5c-4894-4f30-835d-9f9e036fc07b" />
+This confusion matrix further represents the high performance of the SVM individually. It shows a tendency for Type II errors.
+<b> Accuracy Metrics </b>
+<table>
+   <caption>Accuracy Metrics for SVM</caption>
+   <tr>
+      <th>Metric</th>
+      <th>Value</th>
+   </tr>
+   <tr>
+      <td>Accuracy</td>
+      <td>0.99636</td>
+   </tr>
+   <tr>
+      <td>Precision</td>
+      <td>1.0</td>
+   </tr>
+   <tr>
+      <td>Recall</td>
+      <td>0.99248</td>
+   </tr>
+</table>
+
+#### DeBERTa V3 Small
+<b>F-Score: </b> 0.9962264150943396
+This value demonstrates high accuracy and recall. 
 
 
 #### Next Steps:
