@@ -13,6 +13,11 @@ In development for my Data Science Capstone class!
 * SVM model creation and training
 * DeBERTa initial fine-tuning
 
+
+### Model Diagram
+<img width="512" height="500" alt="Screenshot 2025-11-10 at 3 04 40 PM" src="https://github.com/user-attachments/assets/a52bb807-60a6-47e7-97a4-65357d63072d" />
+
+
 ### Current Performance Metrics:
 ##### SVM
 <b>Confusion Matrix: </b>
