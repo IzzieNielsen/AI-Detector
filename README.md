@@ -1,6 +1,22 @@
 ## AI Written Essay Detector
 Ensemble model containing the DeBERTa V3 Small NLP and SVM trained and tested on data from Human vs. AI Generated Essay Dataset.
-In development for my Data Science Capstone class!
+This model is in development for my Data Science Capstone course!
+
+#### How to Run the Model
+* Download the notebook (.ipynb) file and upload it in Google Colab
+      * If you do not have a Google account you will have to make on for free 
+* Ensure required libraries are installed using pip install
+   *    transformers
+   *    datasets
+   *    torch
+   *    evaulation
+   *    pandas
+   *    train_test_split
+   *    sklearn
+* Get free API key for DeBERTa Model
+      * Use this website: https://wandb.ai/authorize?ref=models 
+      * You will need to make a free account
+* These instructions are also in the Colab Notebook
 
 #### Objectives:
 *  Successfully classify essays as human or AI generated
@@ -19,7 +35,7 @@ In development for my Data Science Capstone class!
 
 
 ### Current Performance Metrics:
-##### SVM
+#### SVM
 <b>Confusion Matrix: </b>
 <br>
 
@@ -54,7 +70,7 @@ In development for my Data Science Capstone class!
 </table>
 <br>
 
-##### DeBERTa V3 Small
+#### DeBERTa V3 Small
 <b>F-Score: </b> 0.9962264150943396
 * This value demonstrates high accuracy and recall
 * It indicates robust performance
@@ -63,6 +79,7 @@ In development for my Data Science Capstone class!
 #### Next Steps:
 * Chunk essay data to match token constraints
     * Currently, the longer essays are truncated
+* Use K-Fold Validation to test for overfitting
 * Combine both models into more robust ensemble model
 * Implement explainability using counterfactual explanations
 * Use Gradio to develop a front-end that allows user input
