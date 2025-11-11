@@ -1,0 +1,25 @@
+Requirements:
+* Free Google account
+* Download notebook
+* Download Kaggle Dataset
+* Upload notebook to Google Colab
+* Upload dataset (drag and drop in files side panel)
+* Change file name/path to match yours
+    * the location in the notebook has a comment to show you!
+* Skip the unzip step if the dataset is not a zip folder
+* Add code block with pip install library_name
+    * this is to install any required libraries
+* API Key
+    * Free account with Wandb.AI (https://wandb.ai/authorize?ref=models)
+    * Copy API key from website for DeBERTa Model
+
+Python Library List:
+* transformers
+* datasets
+* torch
+* evaulation
+* pandas
+* train_test_split
+* sklearn
+
+
