@@ -3,20 +3,30 @@ Ensemble model containing the DeBERTa V3 Small NLP and SVM trained and tested on
 This model is in development for my Data Science Capstone course!
 
 #### How to Run the Model
-* Download the notebook (.ipynb) file and upload it in Google Colab
-      * If you do not have a Google account you will have to make on for free 
-* Ensure required libraries are installed using pip install
-   *    transformers
-   *    datasets
-   *    torch
-   *    evaulation
-   *    pandas
-   *    train_test_split
-   *    sklearn
-* Get free API key for DeBERTa Model
-      * Use this website: https://wandb.ai/authorize?ref=models 
-      * You will need to make a free account
+* Create free Google account if needed
+* Download notebook from Github
+* Download Kaggle Dataset Github
+* Upload notebook to Google Colab
+* Upload dataset (drag and drop in files side panel)
+* Change file name/path to match yours
+    * the location in the notebook has a comment to show you!
+* Skip the unzip step if the dataset is not a zip folder
+* Add code block with pip install library_name
+    * this is to install any required libraries
+* API Key
+    * Free account with Wandb.AI (https://wandb.ai/authorize?ref=models)
+    * Copy API key from website for DeBERTa Model
 * These instructions are also in the Colab Notebook
+
+Python Library List:
+* transformers
+* datasets
+* torch
+* evaulation
+* pandas
+* train_test_split
+* sklearn
+
 
 #### Objectives:
 *  Successfully classify essays as human or AI generated
