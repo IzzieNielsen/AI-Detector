@@ -63,10 +63,6 @@ Python Library List:
 * This confusion matrix further represents the high performance of the SVM individually
 * It shows a tendency for Type II errors
 
-<br>
-<b> Accuracy Metrics </b>
-<br>
-
 <table>
    <caption>Accuracy Metrics for SVM</caption>
    <tr>
@@ -92,10 +88,6 @@ Python Library List:
 <b> F-Score: </b> 0.9962264150943396
 * This value demonstrates high accuracy and recall
 * It indicates robust performance
-<br>
-
-<b> DeBERTa Model Training </b>
-<br>
 
 <table>
    <caption>DeBERTa Model Training</caption>
@@ -127,10 +119,6 @@ Python Library List:
 
 ### SVM
 
-<br>
-<b> K-fold Validation SVM </b>
-<br>
-
 <table>
    <caption>K-fold Validation Results for SVM</caption>
    <tr>
@@ -161,10 +149,6 @@ Python Library List:
 <br>
 
 ### DeBERTa
-
-<br>
-<b> K-fold Validation DeBERTa </b>
-<br>
 
 <table>
    <caption>K-fold Validation Results for DeBERTa</caption>
