@@ -43,6 +43,9 @@ Python Library List:
 * Data pre-processing
 * SVM model creation and training
 * DeBERTa initial fine-tuning
+* K-fold validation for both models
+* Create ensemble model
+* Gradio front end
 
 
 ## Model Diagram
@@ -86,16 +89,115 @@ Python Library List:
 <br>
 
 ### DeBERTa V3 Small
-<b>F-Score: </b> 0.9962264150943396
+<b> F-Score: </b> 0.9962264150943396
 * This value demonstrates high accuracy and recall
 * It indicates robust performance
 <br>
 
+<b> DeBERTa Model Training </b>
+<br>
+
+<table>
+   <caption>DeBERTa Model Training</caption>
+   <tr>
+      <th>Epoch</th>
+      <th>Training Loss</th>
+      <th>Validation Loss</th>
+   </tr>
+   <tr>
+      <td>1</td>
+      <td>0.008300</td>
+      <td>0.026248</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>0.010000</td>
+      <td>0.019515</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>0.000400</td>
+      <td>0.017369</td>
+   </tr>
+</table>
+<br>
+
+
+## K-Fold Validation Results
+
+### SVM
+
+<br>
+<b> K-fold Validation SVM </b>
+<br>
+
+<table>
+   <caption>K-fold Validation Results for SVM</caption>
+   <tr>
+      <th>Fold</th>
+      <th>Accuracy Score</th>
+   </tr>
+   <tr>
+      <td>1</td>
+      <td>0.9963636363636363</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>1.0</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>1.0</td>
+   </tr>
+   <tr>
+      <th>4</th>
+      <th>0.9981818181818182</th>
+   </tr>
+   <tr>
+      <td>5</td>
+      <td>1.0</td>
+   </tr>
+</table>
+<br>
+
+### DeBERTa
+
+<br>
+<b> K-fold Validation DeBERTa </b>
+<br>
+
+<table>
+   <caption>K-fold Validation Results for DeBERTa</caption>
+   <tr>
+      <th>Fold</th>
+      <th>Accuracy Score</th>
+   </tr>
+   <tr>
+      <td>1</td>
+      <td>0.99818182</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>1.0</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>0.99818182</td>
+   </tr>
+   <tr>
+      <th>4</th>
+      <th>1.0</th>
+   </tr>
+   <tr>
+      <td>5</td>
+      <td>0.99818182</td>
+   </tr>
+</table>
+<br>
+
 ## Next Steps:
+* Fix overfitting and model performance on user data
 * Chunk essay data to match token constraints
     * Currently, the longer essays are truncated
-* Use K-Fold Validation to test for overfitting
-* Combine both models into more robust ensemble model
 * Implement explainability using counterfactual explanations
-* Use Gradio to develop a front-end that allows user input
   
