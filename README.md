@@ -184,4 +184,5 @@ Python Library List:
 * Chunk essay data to match token constraints
     * Currently, the longer essays are truncated
 * Implement explainability using counterfactual explanations
+* Deploy on Hugging Face
   
