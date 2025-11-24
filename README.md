@@ -1,8 +1,13 @@
-## AI Written Essay Detector
+# AI Written Essay Detector
 Ensemble model containing the DeBERTa V3 Small NLP and SVM trained and tested on data from Human vs. AI Generated Essay Dataset.
 This model is in development for my Data Science Capstone course!
 
-#### How to Run the Model
+## Example Video
+
+https://github.com/user-attachments/assets/b913ee6a-0ef6-49b7-bffc-c7672bd03dcf
+
+
+## How to Run the Model
 * Create free Google account if needed
 * Download notebook from Github
 * Download Kaggle Dataset Github
@@ -28,24 +33,24 @@ Python Library List:
 * sklearn
 
 
-#### Objectives:
+## Objectives:
 *  Successfully classify essays as human or AI generated
 *  Understand AI writing patterns
 *  Help maintain academic integrity
 
-#### Currently Completed:
+## Currently Completed:
 * Dataset importing
 * Data pre-processing
 * SVM model creation and training
 * DeBERTa initial fine-tuning
 
 
-### Model Diagram
+## Model Diagram
 <img width="512" height="500" alt="Screenshot 2025-11-10 at 3 04 40 PM" src="https://github.com/user-attachments/assets/a52bb807-60a6-47e7-97a4-65357d63072d" />
 
 
-### Current Performance Metrics:
-#### SVM
+## Current Performance Metrics:
+### SVM
 <b>Confusion Matrix: </b>
 <br>
 
@@ -80,13 +85,13 @@ Python Library List:
 </table>
 <br>
 
-#### DeBERTa V3 Small
+### DeBERTa V3 Small
 <b>F-Score: </b> 0.9962264150943396
 * This value demonstrates high accuracy and recall
 * It indicates robust performance
 <br>
 
-#### Next Steps:
+## Next Steps:
 * Chunk essay data to match token constraints
     * Currently, the longer essays are truncated
 * Use K-Fold Validation to test for overfitting
