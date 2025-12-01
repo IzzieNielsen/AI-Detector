@@ -10,6 +10,7 @@ https://github.com/user-attachments/assets/b913ee6a-0ef6-49b7-bffc-c7672bd03dcf
 * **Essay Classification:** analyzes user's essays and classifies them as AI Generated or Human Written
 * **Robust Assessment:** uses an ensemble model including and SVM and fine-tuned NLP for better responses
 * **Explainability:** outputs a counterfactual explanation to explain the model's decision
+* **Data Augmentation:** training data is augmented to improve perfromance on user data
 
 ## Installation
 * Create free Google account if needed
@@ -22,7 +23,7 @@ https://github.com/user-attachments/assets/b913ee6a-0ef6-49b7-bffc-c7672bd03dcf
 * Skip the unzip step if the dataset is not a zip folder
 * Add code block with to install libraries
 ```bash
-pip install transformers datasets torch evaulate pandas train_test_split sklearn numpy random
+pip install transformers datasets torch evaulate pandas train_test_split sklearn numpy random gradio
 ```
 * An API key will be required at the model training stage
     * Free account with Wandb.AI (https://wandb.ai/authorize?ref=models)
@@ -39,6 +40,7 @@ Python Library List:
 * sklearn
 * numpy
 * random
+* gradio
 
 ## Usage
 * Run the gradio module
@@ -61,6 +63,8 @@ Python Library List:
 * Create ensemble model
 * Gradio front end
 * Data augmentation to improve performance with out of domain data
+* Text chunking to include the entirety of longer essays
+* Counterfactual explanations for explainability
 
 
 ## Model Diagram
@@ -101,8 +105,9 @@ Block diagram showing the model's decision design and making process.
 <br>
 
 ### DeBERTa V3 Small
-<b> F-Score: </b> 0.9962264150943396
-* This value demonstrates high accuracy and recall
+**F-Score:** 0.9962264150943396 \\
+**Test Loss:** 0.0411
+* These values demonstrates high accuracy and recall
 * It indicates robust performance
 
 <table>
@@ -111,21 +116,37 @@ Block diagram showing the model's decision design and making process.
       <th>Epoch</th>
       <th>Training Loss</th>
       <th>Validation Loss</th>
+      <th>F1</th>
    </tr>
    <tr>
       <td>1</td>
-      <td>0.008300</td>
-      <td>0.026248</td>
+      <td>0.035400</td>
+      <td>0.074584</td>
+      <td>0.976923</td>
    </tr>
    <tr>
       <td>2</td>
-      <td>0.010000</td>
-      <td>0.019515</td>
+      <td>0.000000</td>
+      <td>0.041144</td>
+      <td>0.996226</td>
    </tr>
    <tr>
       <td>3</td>
-      <td>0.000400</td>
-      <td>0.017369</td>
+      <td>0.000000</td>
+      <td>0.043746</td>
+      <td>0.996226</td>
+   </tr>
+   <tr>
+      <td>4</td>
+      <td>0.000000</td>
+      <td>0.044825</td>
+      <td>0.996226</td>
+   </tr>
+   <tr>
+      <td>5</td>
+      <td>0.000000</td>
+      <td>0.045017</td>
+      <td>0.996226</td>
    </tr>
 </table>
 <br>
@@ -197,10 +218,6 @@ K-fold validation was done on the models to test for overfitting.
 </table>
 <br>
 
-## Next Steps:
-* Fix overfitting and model performance on user data
-* Chunk essay data to match token constraints
-    * Currently, the longer essays are truncated
-* Implement explainability using counterfactual explanations
+## Final Step:
 * Deploy on Hugging Face
   
