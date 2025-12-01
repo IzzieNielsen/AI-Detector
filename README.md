@@ -4,7 +4,11 @@ This model is in development for my Data Science Capstone course!
 
 ## Example Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k2hspDkF_KQ" frameborder="0" allowfullscreen></iframe>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=k2hspDkF_KQ">
+    <img src="https://img.youtube.com/vi/k2hspDkF_KQ/0.jpg" alt="YouTube Video"/>
+  </a>
+</p>
 
 ## Key Features
 * **Essay Classification:** analyzes user's essays and classifies them as AI Generated or Human Written
@@ -69,7 +73,7 @@ Python Library List:
 
 ## Model Diagram
 Block diagram showing the model's decision design and making process.
-<img width="512" height="500" alt="Screenshot 2025-11-10 at 3 04 40 PM" src="https://github.com/user-attachments/assets/a52bb807-60a6-47e7-97a4-65357d63072d" />
+<img width="458" height="594" alt="block_diagram" src="https://github.com/user-attachments/assets/8e0fa644-aa8d-4ca2-9851-58be8eb8133b" />
 
 
 ## Current Performance Metrics:
