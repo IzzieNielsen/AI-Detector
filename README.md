@@ -72,7 +72,9 @@ Python Library List:
 
 
 ## Model Diagram
-Block diagram showing the model's decision design and making process. \\
+Block diagram showing the model's decision design and making process.
+
+
 <img width="458" height="594" alt="block_diagram" src="https://github.com/user-attachments/assets/8e0fa644-aa8d-4ca2-9851-58be8eb8133b" />
 
 
