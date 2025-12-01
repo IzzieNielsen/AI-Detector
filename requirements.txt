@@ -2,6 +2,9 @@ datasets
 evaluate
 pandas
 scikit-learn
+pandas  
+numpy 
+random
 
 torch>=2.0.0
 transformers>=4.30.0
