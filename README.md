@@ -6,19 +6,25 @@ This model is in development for my Data Science Capstone course!
 
 https://github.com/user-attachments/assets/b913ee6a-0ef6-49b7-bffc-c7672bd03dcf
 
+## Key Features
+* **Essay Classification:** analyzes user's essays and classifies them as AI Generated or Human Written
+* **Robust Assessment:** uses an ensemble model including and SVM and fine-tuned NLP for better responses
+* **Explainability:** outputs a counterfactual explanation to explain the model's decision
 
 ## How to Run the Model
 * Create free Google account if needed
 * Download notebook from Github
-* Download Kaggle Dataset Github
+* Download Kaggle Dataset from Github
 * Upload notebook to Google Colab
 * Upload dataset (drag and drop in files side panel)
-* Change file name/path to match yours
+* Change file name/path to match its name on your device
     * the location in the notebook has a comment to show you!
 * Skip the unzip step if the dataset is not a zip folder
-* Add code block with pip install library_name
-    * this is to install any required libraries
-* API Key
+* Add code block with to install libraries
+```bash
+pip install transformers datasets torch evaulate pandas train_test_split sklearn numpy random
+```
+* An API key will be required at the model training stage
     * Free account with Wandb.AI (https://wandb.ai/authorize?ref=models)
     * Copy API key from website for DeBERTa Model
 * These instructions are also in the Colab Notebook
@@ -27,10 +33,12 @@ Python Library List:
 * transformers
 * datasets
 * torch
-* evaulation
+* evaulate
 * pandas
 * train_test_split
 * sklearn
+* numpy
+* random
 
 
 ## Objectives:
@@ -46,6 +54,7 @@ Python Library List:
 * K-fold validation for both models
 * Create ensemble model
 * Gradio front end
+* Data augmentation to improve performance with out of domain data
 
 
 ## Model Diagram
@@ -116,6 +125,8 @@ Python Library List:
 
 
 ## K-Fold Validation Results
+
+K-fold validation was done on the models to test for overfitting.
 
 ### SVM
 
