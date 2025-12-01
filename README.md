@@ -4,7 +4,7 @@ This model is in development for my Data Science Capstone course!
 
 ## Example Video
 
-https://github.com/user-attachments/assets/b913ee6a-0ef6-49b7-bffc-c7672bd03dcf
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k2hspDkF_KQ" frameborder="0" allowfullscreen></iframe>
 
 ## Key Features
 * **Essay Classification:** analyzes user's essays and classifies them as AI Generated or Human Written
