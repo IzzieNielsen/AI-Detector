@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/b913ee6a-0ef6-49b7-bffc-c7672bd03dcf
 * **Robust Assessment:** uses an ensemble model including and SVM and fine-tuned NLP for better responses
 * **Explainability:** outputs a counterfactual explanation to explain the model's decision
 
-## How to Run the Model
+## Installation
 * Create free Google account if needed
 * Download notebook from Github
 * Download Kaggle Dataset from Github
@@ -40,6 +40,12 @@ Python Library List:
 * numpy
 * random
 
+## Usage
+* Run the gradio module
+* Paste the link into a search engine
+* Copy and paste an essay into the text box
+* Select analyze
+* View results - the probability that an essay is human written and AI generated
 
 ## Objectives:
 *  Successfully classify essays as human or AI generated
@@ -58,6 +64,7 @@ Python Library List:
 
 
 ## Model Diagram
+Block diagram showing the model's decision design and making process.
 <img width="512" height="500" alt="Screenshot 2025-11-10 at 3 04 40 PM" src="https://github.com/user-attachments/assets/a52bb807-60a6-47e7-97a4-65357d63072d" />
 
 
