@@ -6,6 +6,7 @@ pandas
 numpy 
 random
 
+huggingface_hub>=0.34.0
 torch>=2.0.0
 transformers>=4.30.0
 gradio>=4.0.0
