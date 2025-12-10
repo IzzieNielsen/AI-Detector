@@ -5,7 +5,7 @@ This model is in development for my Data Science Capstone course!
 ## Example Video
 
 <p align="center">
-[![YouTube Video](https://img.youtube.com/vi/mlTUdOQuLUM/maxresdefault.jpg)](https://youtu.be/mlTUdOQuLUM)
+[![Video Title](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)]([https://www.youtube.com/watch?v=VIDEO_ID](https://youtu.be/k2hspDkF_KQ))
 </p>
 
 ## Key Features
